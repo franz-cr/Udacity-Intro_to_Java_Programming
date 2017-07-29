@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Word
+comment1.params=word
+comment1.target=Word(java.lang.String)
+comment1.text=\r\n\ Constructor\ of\ Word\ class.\r\n\ @parameter\ \ \ takes\ any\ string\ of\ characters\ and\ saves\ it\ in\ the\ instance\ variable\r\n
+comment2.params=
+comment2.target=java.lang.String\ getSubstrings()
+comment2.text=\r\n\ Gets\ all\ the\ substrings\ of\ this\ Word.\r\n\ @return\ all\ substrings\ of\ this\ Word\ separated\ by\ newline\r\n
+numComments=3

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Manager
+comment1.params=name\ salary\ theBonus
+comment1.target=Manager(java.lang.String,\ double,\ double)
+comment1.text=\r\n\ Constructs\ a\ Manager\r\n\ @name\ the\ name\ of\ the\ manager\r\n\ @salary\ the\ salary\ of\ this\ manager\r\n\ @param\ theBonus\ the\ bonus\ for\ this\ Manager\r\n
+comment2.params=
+comment2.target=double\ getBonus()
+comment3.params=
+comment3.target=double\ getSalary()
+numComments=4

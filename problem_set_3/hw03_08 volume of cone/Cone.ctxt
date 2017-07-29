@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cone
+comment0.text=\r\n\ Complete\ the\ code\ to\ find\ the\ volume\ of\ a\ cone\ with\ radius\ r\ and\ height\ h\r\n
+comment1.params=r\ h
+comment1.target=double\ volume(int,\ int)
+comment1.text=\r\n\ Gets\ the\ volume\ of\ a\ cone\r\n\ @param\ r\ the\ radius\ of\ the\ cone\r\n\ @param\ h\ the\ height\ of\ the\ cone\r\n
+numComments=2

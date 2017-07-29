@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Flag
+comment1.params=width\ height
+comment1.target=Flag(int,\ int)
+comment2.params=x\ y
+comment2.target=Color\ getColorAt(int,\ int)
+numComments=3

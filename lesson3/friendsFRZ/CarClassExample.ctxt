@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CarClassExample
+comment0.text=\r\n\ \ \ A\ simulated\ car\ that\ consumes\ gas\ as\ it\ drives.\r\n
+comment1.params=mpg
+comment1.target=CarClassExample(double)
+comment1.text=\r\n\ \ \ \ \ \ \ Constructs\ a\ car\ with\ a\ given\ fuel\ efficiency.\r\n
+comment2.params=amount
+comment2.target=void\ addGas(double)
+comment2.text=\r\n\ \ \ \ \ \ TODO\:\ Add\ your\ documentation\ for\ the\ addGas\ class\r\n\ \ \ \ \ \ Don't\ forget\ to\ explain\ what\ the\ input\ paramater\r\n\ \ \ \ \ \ amount\ means\ or\ does\r\n\ \ \ \ \ \ Adds\ the\ provided\ amount\ in\ gas\ into\ the\ gas\ tank.\r\n\ \ \ \ \ \ @param\ amount\ the\ quantity\ in\ gallons\ of\ gas\ to\ add\ into\ the\ tank\r\n
+comment3.params=
+comment3.target=double\ getGasInTank()
+comment3.text=\r\n\ \ \ \ \ \ Gets\ the\ current\ amount\ of\ gas\ in\ the\ tank\ of\ this\ car.\r\n\ \ \ \ \ \ @return\ the\ current\ gas\ level\r\n
+comment4.params=distance
+comment4.target=void\ drive(double)
+comment4.text=\r\n\ \ \ \ \ \ Drives\ this\ car\ by\ a\ given\ distance.\r\n\ \ \ \ \ \ @param\ distance\ the\ distance\ in\ miles\ to\ drive\r\n
+comment5.params=
+comment5.target=double\ getMilesDriven()
+comment5.text=\r\n\ \ \ \ \ \ Gets\ the\ current\ mileage\ of\ this\ car.\r\n\ \ \ \ \ \ @return\ the\ total\ number\ of\ miles\ driven\r\n
+numComments=6

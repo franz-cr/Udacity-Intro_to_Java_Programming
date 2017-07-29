@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=DiceGame
+comment1.params=
+comment1.target=DiceGame()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=
+comment3.target=boolean\ game1()
+comment3.text=\ \r\n\ Throw\ a\ die\ four\ times\ and\ bet\ on\ at\ least\ one\ 6.\ \r\n\ @return\ true\ if\ the\ chevalier\ wins.\ \r\n
+comment4.params=
+comment4.target=boolean\ game2()
+comment4.text=\r\n\ Throw\ two\ dice\ 24\ times\ and\ bet\ on\ at\ least\ one\ double-six.\r\n\ @return\ true\ if\ the\ chevalier\ wins.\ \r\n
+comment5.params=
+comment5.target=int\ integerRandom()
+comment6.params=
+comment6.target=double\ doubleRandom()
+numComments=7

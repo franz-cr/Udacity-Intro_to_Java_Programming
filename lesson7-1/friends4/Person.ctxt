@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Person
+comment1.params=name
+comment1.target=Person(java.lang.String)
+comment2.params=friend
+comment2.target=void\ addFriend(Person)
+comment2.text=\r\n\ Adds\ the\ given\ friend\ to\ this\ Person's\ friends\ list.\r\n\ @param\ friend\ the\ friend\ to\ add.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFriends()
+comment3.text=\r\n\ Gets\ a\ list\ of\ all\ of\ this\ Person's\ friends.\r\n\ @return\ the\ names\ of\ the\ friends\ separated\ by\ a\ comma\ and\ a\ space.\r\n\ \ \ \ \ e.g.\ "Sara,\ Cheng-Han,\ Cay"\r\n
+comment4.params=separator
+comment4.target=java.lang.String\ getFriends(java.lang.String)
+comment4.text=\r\n\ Returns\ the\ names\ of\ the\ friends\ with\ separator\ between\ them.\r\n\ @param\ separator\ string\ to\ put\ between\ names.\r\n\ @return\ the\ names\ of\ the\ friends.\r\n
+comment5.params=
+comment5.target=int\ getNumFriends()
+comment5.text=\r\n\ Gets\ the\ number\ of\ friends\ this\ Person\ has.\r\n\ @return\ the\ number\ of\ friends.\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Gets\ the\ name\ of\ person\ as\ a\ string.\r\n\ @return\ the\ person's\ name.\r\n
+numComments=7

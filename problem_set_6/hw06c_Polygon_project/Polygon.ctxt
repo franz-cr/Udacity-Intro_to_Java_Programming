@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Polygon
+comment1.params=
+comment1.target=Polygon()
+comment1.text=\r\n\ Class\ empty\ constructor\r\n\ @parameter\ none.\r\n
+comment2.params=xCoord\ yCoord
+comment2.target=void\ add(int,\ int)
+comment2.text=\r\n\ Adds\ the\ x-y\ coordinates\ as\ a\ point\ to\ the\ polygon.\r\n\ @param\ xCoord\ is\ the\ value\ of\ the\ point\ on\ the\ x-axis.\r\n\ @param\ yCoord\ is\ the\ value\ of\ the\ point\ on\ the\ y-axis.\r\n
+comment3.params=thisPoint
+comment3.target=void\ add(java.awt.Point)
+comment3.text=\r\n\ Adds\ a\ point\ to\ the\ polygon.\r\n\ @param\ point.\r\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\r\n\ Clears\ the\ points\ of\ the\ polygon\ class.\r\n\ @param\ none.\r\n\ @return\ none.\r\n
+comment5.params=
+comment5.target=double\ perimeter()
+comment5.text=\r\n\ Gets\ the\ current\ perimeter\ of\ the\ polygon.\r\n\ @return\ perimeter\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Returns\ the\ current\ array\ list\ as\ a\ string.\r\n\ @return\ array\ list\ as\ a\ string\r\n
+comment7.params=
+comment7.target=void\ draw()
+comment7.text=\r\n\ Draws\ the\ current\ polygon\ on\ the\ canvas.\r\n\ @return\ perimeter\r\n
+numComments=8

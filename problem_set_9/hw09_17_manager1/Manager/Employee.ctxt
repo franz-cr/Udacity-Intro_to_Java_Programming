@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Employee
+comment1.params=
+comment1.target=Employee()
+comment1.text=\r\n\ Creates\ a\ default\ constructor\ with\ a\ empty\ string\ for\ the\ name\ and\ a\ salary\ of\ 0.0\r\n
+comment2.params=name\ salary
+comment2.target=Employee(java.lang.String,\ double)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Employee\r\n\ @param\ name\ the\ nbame\ of\ the\ employee\r\n\ @param\ salary\ the\ salary\ of\ the\ employee\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Gets\ the\ name\ of\ this\ employee\r\n\ @return\ the\ name\ of\ the\ employee\r\n
+comment4.params=
+comment4.target=double\ getSalary()
+comment4.text=\r\n\ Gets\ the\ salary\ of\ the\ employee\r\n\ @return\ the\ salary\ of\ the\ employee\r\n
+comment5.params=amount
+comment5.target=void\ setSalary(double)
+numComments=6

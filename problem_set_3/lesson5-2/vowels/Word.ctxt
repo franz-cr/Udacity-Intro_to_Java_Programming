@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Word
+comment1.params=letters
+comment1.target=Word(java.lang.String)
+comment2.params=i
+comment2.target=boolean\ isVowel(int)
+comment2.text=\r\n\ \ \ \ \ \ \ Tests\ whether\ the\ ith\ letter\ is\ a\ vowel.\r\n\ \ \ \ \ \ \ @param\ i\ the\ index\ of\ the\ letter\ to\ test\r\n\ \ \ \ \ \ \ @return\ true\ if\ the\ ith\ letter\ is\ a\ vowel\r\n
+comment3.params=i
+comment3.target=boolean\ isConsonant(int)
+comment3.text=\r\n\ \ \ \ \ \ \ Tests\ whether\ the\ ith\ letter\ is\ a\ consonant.\r\n\ \ \ \ \ \ \ @param\ i\ the\ index\ of\ the\ letter\ to\ test\r\n\ \ \ \ \ \ \ @return\ true\ if\ the\ ith\ letter\ is\ a\ consonant\r\n
+numComments=4

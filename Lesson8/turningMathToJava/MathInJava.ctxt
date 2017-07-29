@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MathInJava
+comment1.params=s\ n
+comment1.target=double\ amdahlSpeedup(double,\ double)
+comment1.text=\r\n\ \ \ \ \ \ \ Computes\ the\ fraction\r\n\r\n\ \ \ \ \ \ \ \ \ \ \ 1\r\n\ \ \ \ \ \ -----------\r\n\ \ \ \ \ \ \ \ \ \ \ 1\ -\ s\r\n\ \ \ \ \ \ \ s\ +\ -----\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ n\r\n\r\n\ \ \ \ \ \ See\ http\://en.wikipedia.org/wiki/Amdahl%27s_law\r\n
+comment2.params=a\ b\ c\ d
+comment2.target=double\ crossRatio(double,\ double,\ double,\ double)
+comment2.text=\r\n\ \ \ \ \ \ \ \ Computes\ the\ fraction\r\n\r\n\ \ \ \ \ \ \ \ (a\ -\ c)(b\ -\ d)\r\n\ \ \ \ \ \ \ \ --------------\r\n\ \ \ \ \ \ \ \ (b\ -\ c)(a\ -\ d)\r\n\r\n\ \ \ \ \ \ \ \ See\ http\://en.wikipedia.org/wiki/Cross-ratio\r\n
+comment3.params=a\ b\ c\ d
+comment3.target=double\ average(int,\ int,\ int,\ int)
+comment3.text=\r\n\ \ \ \ \ \ \ \ Computes\ the\ average\ of\ four\ values.\r\n\ \ \ \ \ \ \ \ @param\ a\ the\ first\ value\r\n\ \ \ \ \ \ \ \ @param\ b\ the\ second\ value\r\n\ \ \ \ \ \ \ \ @param\ c\ the\ third\ value\r\n\ \ \ \ \ \ \ \ @param\ d\ the\ fourth\ value\r\n\ \ \ \ \ \ \ \ @return\ the\ average\ of\ the\ four\ values\r\n
+numComments=4

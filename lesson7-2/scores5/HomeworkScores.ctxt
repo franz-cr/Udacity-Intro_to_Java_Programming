@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=HomeworkScores
+comment0.text=\r\n\ Holds\ the\ homework\ scores\ for\ a\ student.\r\n
+comment1.params=maxScores
+comment1.target=HomeworkScores(int)
+comment1.text=\r\n\ @param\ maxScores\ the\ maximum\ number\ of\ scores\ this\ object\ can\ hold.\r\n
+comment2.params=
+comment2.target=void\ removeLowest()
+comment2.text=\r\n\ Removes\ the\ lowest\ score.\r\n
+comment3.params=
+comment3.target=int\ getLowScoreIndex()
+comment3.text=\r\n\ Finds\ the\ index\ of\ the\ lowest\ score.\r\n\ @return\ the\ index\ of\ the\ lowest\ score.\r\n
+comment4.params=userInput
+comment4.target=void\ readScores(java.util.Scanner)
+comment5.params=searchedValue
+comment5.target=int\ find(double)
+comment5.text=\r\n\ Finds\ the\ first\ occurrence\ of\ the\ given\ score.\r\n\ @param\ searchedValue\ the\ score\ to\ look\ for\r\n\ @return\ the\ position\ of\ scoreToFind,\ -1\ if\ it's\ not\ there\r\n
+comment6.params=
+comment6.target=double\ lowScore()
+comment6.text=\r\n\ Returns\ the\ lowest\ of\ the\ scores.\r\n\ @return\ the\ lowest\ score\r\n
+comment7.params=pos
+comment7.target=void\ remove(int)
+comment7.text=\r\n\ Removes\ the\ score\ at\ the\ given\ position.\r\n\ @param\ pos\ the\ position\ of\ the\ value\ to\ remove.\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Builds\ an\ easy-to-read\ description\ of\ the\ scores\ in\ the\ object.\r\n\ @return\ A\ description\ of\ the\ scores.\r\n
+numComments=9

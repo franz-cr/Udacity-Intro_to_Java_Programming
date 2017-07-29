@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MathUtil
+comment1.params=n
+comment1.target=int\ sumOfOdd(int)
+comment1.text=\r\n\ Gets\ the\ sum\ of\ all\ the\ odd\ digits\ in\ the\ parameter\r\n\ @param\ n\ the\ number\ to\ use\r\n\ @return\ the\ sum\ of\ the\ odd\ digits.\r\n
+numComments=2

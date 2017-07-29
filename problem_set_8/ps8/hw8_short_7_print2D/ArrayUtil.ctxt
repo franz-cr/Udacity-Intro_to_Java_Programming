@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ArrayUtil
+comment1.params=matrix
+comment1.target=void\ print2D(int[][])
+comment1.text=\r\n\ Prints\ the\ given\ 2D\ array\ in\ columns\ and\ rows\r\n\ @param\ the\ array\ to\ print\r\n
+numComments=2

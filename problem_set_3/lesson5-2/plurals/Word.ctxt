@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Word
+comment1.params=letters
+comment1.target=Word(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getPluralForm()
+comment2.text=\r\n\ \ \ \ \ \ \ \ Forms\ the\ plural\ of\ this\ word.\r\n\ \ \ \ \ \ \ \ @return\ the\ plural,\ using\ the\ rules\ for\ regular\ nouns\r\n
+comment3.params=_last
+comment3.target=boolean\ isCase1(int)
+comment3.text=\r\n\ Tests\ if\ the\ last\ letters\ are\ a\ 'y'\ and\ the\ precedent\ letter\ cases.\r\n\ @param\ \ \ none\r\n\ @return\ \ boolean\r\n
+comment4.params=_last
+comment4.target=boolean\ isCase2(int)
+comment4.text=\r\n\ Tests\ if\ the\ last\ letters\ are\ an\ 'o',\ 's',\ 'sh'\ or\ 'ch'.\r\n\ @param\ \ \ none\r\n\ @return\ \ boolean\r\n
+comment5.params=i
+comment5.target=boolean\ isVowel(int)
+comment5.text=\r\n\ \ \ \ \ \ \ Tests\ whether\ the\ ith\ letter\ is\ a\ vowel.\r\n\ \ \ \ \ \ \ @param\ i\ the\ index\ of\ the\ letter\ to\ test\r\n\ \ \ \ \ \ \ @return\ true\ if\ the\ ith\ letter\ is\ a\ vowel\r\n
+comment6.params=i
+comment6.target=boolean\ isConsonant(int)
+comment6.text=\r\n\ \ \ \ \ \ \ Tests\ whether\ the\ ith\ letter\ is\ a\ consonant.\r\n\ \ \ \ \ \ \ @param\ i\ the\ index\ of\ the\ letter\ to\ test\r\n\ \ \ \ \ \ \ @return\ true\ if\ the\ ith\ letter\ is\ a\ consonant\r\n
+comment7.params=i\ letter
+comment7.target=boolean\ is(int,\ java.lang.String)
+comment7.text=\r\n\ Checks\ what\ letter\ is\ in\ position\ i\r\n\ @return\ true\ when\ the\ the\ letter\ of\ letters\ is\ the\ given\ letter.\r\n\ \ \ \ \ \ \ \ \ false\ otherwise.\r\n\ @param\ i\ index\ in\ letters\r\n\ @param\ letter\ the\ letter\ to\ match\ with.\ must\ be\ one\ character\ long.\r\n
+comment8.params=index\ suffix
+comment8.target=boolean\ isSuffix(int,\ java.lang.String)
+comment8.text=\r\n\ Checks\ what\ letters\ are\ in\ position\ i-1\ and\ i\r\n\ @return\ true\ when\ the\ last\ 2\ letters\ of\ letters\ is\ the\ given\ letters.\r\n\ \ \ \ \ \ \ \ \ false\ otherwise.\r\n\ @param\ i\ index\ in\ letters\r\n\ @param\ letter\ the\ letter\ to\ match\ with.\ must\ be\ one\ character\ long.\r\n
+numComments=9

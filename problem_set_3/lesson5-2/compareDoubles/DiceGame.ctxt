@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DiceGame
+comment1.params=x\ y
+comment1.target=int\ exactlyOneThree(int,\ int)
+comment1.text=\r\n\ Calculates\ the\ score\ of\ a\ round\ of\ this\ game.\r\n\ x\ the\ first\ roll\r\n\ y\ the\ second\ roll\r\n\ @return\ a\ score\ of\ 1\ if\ exactly\ one\ is\ 3,\ a\ score\ of\ 0\ otherwise\r\n
+numComments=2

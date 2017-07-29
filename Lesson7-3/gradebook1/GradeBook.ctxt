@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GradeBook
+comment1.params=file
+comment1.target=GradeBook(java.lang.String)
+comment2.params=studentIndex
+comment2.target=double\ totalForStudent(int)
+comment2.text=\r\n\ Adds\ up\ all\ the\ scores\ for\ one\ student\ and\ returns\ the\ result.\r\n\ Only\ works\ for\ a\ valid\ student\ index.\r\n\ @param\ studentIndex\ the\ row\ for\ the\ student\ whose\ total\ you\ want.\r\n\ @return\ the\ sum\ of\ that\ student's\ scores,\ or\ -1\ if\ the\ index\ is\ bad.\r\n
+comment3.params=file
+comment3.target=void\ readScoresFromFile(java.lang.String)
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TemperatureDifferenceCalculator
+comment1.params=list
+comment1.target=TemperatureDifferenceCalculator(double[])
+comment1.text=\r\n\ Constructs\ a\ TemperatureDifferenceCalculator\ with\ the\ given\ array\r\n\ @param\ the\ array\ to\ process\r\n
+comment2.params=
+comment2.target=double\ maxDifference()
+comment2.text=\r\n\ Gets\ the\ maximum\ difference\ between\ any\ two\ consecutive\ values\r\n\ @return\ the\ maximum\ difference\r\n
+comment3.params=
+comment3.target=double\ minDifference()
+comment3.text=\r\n\ Gets\ the\ minimum\ difference\ between\ any\ two\ consecutive\ values\r\n\ @return\ the\ minimum\ difference\r\n
+numComments=4

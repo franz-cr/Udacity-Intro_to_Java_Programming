@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Person\ here.\r\n\r\n\ @author\ Franz\ J.\ Ulrich\r\n\ @version\ 20170417\r\n
+comment1.params=aName
+comment1.target=Person(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getFriends()
+comment2.text=\r\n\ \ \ \ //\ TODO\ \#1\:\ Fill\ in\ the\ rest\ of\ the\ arguments\ to\ the\ Person\ constructor\r\n\ \ \ \ //\ The\ Person\ constructor\ should\ take\ in\ 3\ additional\ arguments\:\r\n\ \ \ \ //\ 1)\ String\ pictureName\r\n\ \ \ \ //\ 2)\ int\ xCoord\r\n\ \ \ \ //\ 3)\ int\ yCoord\r\n\ \ \ \ public\ Person\ (String\ aName,\ String\ picName,\ int\ xCoord,\ int\ yCoord)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ name\ \=\ aName;\r\n\ \ \ \ \ \ \ \ friends\ \=\ "";\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ //\ TODO\ \#2\:\ Fill\ in\ the\ rest\ of\ this\ constructor\r\n\ \ \ \ \ \ \ \ //\r\n\ \ \ \ \ \ \ \ //\ You\ need\ to\ create\ a\ local\ variable\ called\ picture\ and\ assign\ to\r\n\ \ \ \ \ \ \ \ //\ picture\ the\ picture\ that\ we\ want\ to\ use.\r\n\ \ \ \ \ \ \ \ //\r\n\ \ \ \ \ \ \ \ //\ You\ need\ to\ move\ the\ picture\ to\ xCoord\ and\ yCoord.\r\n\ \ \ \ \ \ \ \ //\ You\ can\ move\ the\ picture\ object\ by\ calling\ the\ translate\ method.\r\n\ \ \ \ \ \ \ \ //\r\n\ \ \ \ \ \ \ \ //\ The\ last\ step\ is\ to\ draw\ the\ picture.\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ Picture\ personPicture\ \=\ new\ Picture(picName);\r\n\ \ \ \ \ \ \ \ personPicture.translate(xCoord,\ yCoord);\r\n\ \ \ \ \ \ \ \ personPicture.draw();\r\n\ \ \ \ }\r\n
+comment3.params=friend
+comment3.target=void\ addFriend(Person)
+comment4.params=nonFriend
+comment4.target=void\ unFriend(Person)
+numComments=5

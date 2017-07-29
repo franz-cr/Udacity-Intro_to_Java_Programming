@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Center
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Declarar\ variables\ con\ los\ datos\ fundamentales\:\r\n\ \ 1)\ Crear\ y\ cargar\ la\ foto.\r\n\ \ 2)\ Dibujar\ la\ foto.\r\n\ \ 3)\ Calcular\ el\ radio\ y\ el\ centro\ geom\u00E9trico\ de\ la\ foto.\r\n\ \ 4)\ Recorrer\ los\ p\u00EDxeles\ de\ la\ foto.\r\n\ \ 5)\ Para\ cada\ p\u00EDxel,\ calcular\ la\ distancia\ al\ centro\ geom\u00E9trico.\r\n\ \ 6)\ Evaluar\ si\ ese\ p\u00EDxel\ est\u00E1\ dentro\ del\ radio.\r\n\ \ 7)\ Cambiar\ color\ del\ p\u00EDxel\ a\ negro\ si\ est\u00E1\ fuera\ de\ c\u00EDculo.\r\n\ \ \ \ \ \ -\ setColorAt(int\ x,\ int\ y,\ Color\ color)\r\n\ \ 8)\ Continuar\ con\ el\ siguiente\ p\u00EDxel.\r\n
+comment2.params=pixel
+comment2.target=int\ catetoCalc(int)
+comment3.params=catetoX\ catetoY
+comment3.target=double\ radiusToPixel(double,\ double)
+numComments=4

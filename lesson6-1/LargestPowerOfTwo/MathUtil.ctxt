@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MathUtil
+comment0.text=\r\n\ Complete\ the\ method\ to\ find\ the\ largest\ power\ of\ 2\ less\ than\ the\ given\ number\r\n\ Use\ a\ loop\r\n
+comment1.params=n
+comment1.target=int\ largestPowerOf2(int)
+numComments=2

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GradeBook
+comment1.params=file
+comment1.target=GradeBook(java.lang.String)
+comment2.params=topicIndex
+comment2.target=double\ totalForTopic(int)
+comment2.text=\r\n\ Adds\ up\ all\ the\ scores\ for\ one\ topic\ and\ returns\ the\ result.\r\n\ Only\ works\ for\ a\ valid\ topic\ index.\r\n\ @param\ topicIndex\ the\ column\ for\ the\ topic\ whose\ total\ you\ want.\r\n\ @return\ the\ sum\ of\ that\ topic's\ scores,\ or\ -1\ if\ the\ index\ is\ bad.\r\n
+comment3.params=studentIndex
+comment3.target=double\ totalForStudent(int)
+comment3.text=\r\n\ Adds\ up\ all\ the\ scores\ for\ one\ student\ and\ returns\ the\ result.\r\n\ Only\ works\ for\ a\ valid\ student\ index.\r\n\ @param\ studentIndex\ the\ row\ for\ the\ student\ whose\ total\ you\ want.\r\n\ @return\ the\ sum\ of\ that\ student's\ scores,\ or\ -1\ if\ the\ index\ is\ bad.\r\n
+comment4.params=
+comment4.target=double[]\ totalsForAllStudents()
+comment4.text=\r\n\ Calculates\ the\ totals\ for\ all\ the\ students\ and\ returns\ the\ results\r\n\ in\ a\ completely\ filled\ array.\ The\ order\ of\ the\ totals\ matches\ the\r\n\ order\ of\ the\ names\ in\ studentNames.\r\n\ @return\ a\ filled\ array\ of\ the\ total\ for\ each\ student.\r\n
+comment5.params=
+comment5.target=double[]\ totalsForAllTopics()
+comment5.text=\r\n\ Calculates\ the\ column\ totals\ (the\ sum\ of\ of\ all\ students'\r\n\ scores\ for\ one\ topic)\ for\ all\ topics\ in\ a\ completely\ filled\ array.\r\n\ The\ order\ of\ the\ topcs\ matches\ the\ order\ of\ the\ topic\ names\ in\r\n\ topicNames.\r\n\ @return\ a\ filled\ array\ of\ the\ total\ for\ each\ topic.\r\n
+comment6.params=file
+comment6.target=void\ readScoresFromFile(java.lang.String)
+numComments=7

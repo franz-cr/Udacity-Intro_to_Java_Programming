@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=AverageTest
+comment0.text=\r\n\ Compelete\ the\ method\ to\ return\ the\ average\ of\ three\ numbers\r\n
+comment1.params=test1\ test2\ test3
+comment1.target=double\ average(int,\ int,\ int)
+numComments=2

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Plot
+comment1.params=width\ length
+comment1.target=Plot(int,\ int)
+comment1.text=\r\n\ \ \ \ \ \ \ \ Constructs\ a\ plot\ of\ a\ given\ size.\r\n\ \ \ \ \ \ \ \ @param\ width\ the\ width\ of\ the\ plot\r\n\ \ \ \ \ \ \ \ @param\ length\ the\ length\ of\ the\ plot\r\n
+comment2.params=radius
+comment2.target=int\ getNumberOfFields(int)
+comment2.text=\r\n\ Calculates\ the\ number\ of\ circular\ fields\ that\ can\ fit\ on\ this\ plot.\r\n
+numComments=3

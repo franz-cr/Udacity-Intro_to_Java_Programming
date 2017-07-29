@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CreditCard
+comment0.text=\r\n\ \ \ \ Create\ a\ class\ CreditCard\ that\ represents\ a\ credit\ card\ account.\r\n\ \ \ \ You\ need\ to\ construct\ a\ new\ credit\ card\ with\ a\ 0.0\ balance.\ \r\n\ \ \ \ \r\n\ \ \ \ The\ constructor\ will\ have\ this\ header\:\r\n\ \ \ \ public\ CreditCard()\r\n\ \ \ \ \r\n\ \ \ \ CreditCard\ will\ have\ these\ methods\:\r\n\ \ \ \ public\ void\ purchase(double\ amount)\r\n\ \ \ \ public\ void\ payment(double\ amount)\r\n\ \ \ \ public\ double\ getBalance()\r\n\ \ \ \ \r\n\ \ \ \ Need\ help\ starting\ this\ question?\ In\ the\ lesson\ titled\ \r\n\ \ \ \ "Starting\ points\:\ Problem\ Set\ Questions",\ go\ to\ the\r\n\ \ \ \ problem\ titled\ "Problem\ Set\ 2\ -\ Question\ 1"\ for\ some\ tips\ on\ \r\n\ \ \ \ how\ to\ begin.\ \r\n
+comment1.params=
+comment1.target=CreditCard()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CreditCard,\ has\ no\ parameters\r\n
+comment2.params=amount
+comment2.target=void\ purchase(double)
+comment2.text=\r\n\ This\ method\ debits\ the\ amount\ provided\ to\ the\ current\ card\ balance.\r\n\r\n\ @param\ \ amount\ \ a\ sample\ parameter\ for\ a\ method\r\n
+comment3.params=amount
+comment3.target=void\ payment(double)
+comment3.text=\r\n\ This\ method\ credits\ the\ amount\ provided\ to\ the\ current\ card\ balance.\r\n\r\n\ @param\ \ amount\ \ a\ sample\ parameter\ for\ a\ method\r\n
+comment4.params=
+comment4.target=double\ getBalance()
+comment4.text=\r\n\ This\ method\ gets\ the\ current\ card\ balance.\r\n\r\n\ @return\ the\ current\ credit\ card\ balance\r\n
+numComments=5

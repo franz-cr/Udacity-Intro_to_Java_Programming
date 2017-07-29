@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Simulation
+comment1.params=
+comment1.target=Simulation()
+comment2.params=in
+comment2.target=void\ read(java.util.Scanner)
+comment2.text=\r\n\ \ \ \ \ \ \ Reads\ the\ car\ and\ person\ data.\ Each\ row\ has\ the\ format\r\n\ \ \ \ \ \ \ n\ \ \ \ Driver\ or\ Passenger\ Name\ \ \ Destination\r\n\ \ \ \ \ \ \ where\ n\ is\ the\ number\ of\ seats\ for\ a\ car,\r\n\ \ \ \ \ \ \ 0\ for\ a\ passenger,\ -1\ to\ signify\ the\ end\ of\ input.\r\n\ \ \ \ \ \ \ @param\ in\ the\ scanner\ to\ read\ from\r\n\ \ \ \ \ \ \ \r\n4\ Drv01\ 3\r\n4\ Drv02\ 4\r\n0\ Psg01\ 4\r\n0\ Psg02\ 3\r\n0\ Psg03\ 3\r\n0\ Psg04\ 4\r\n0\ Psg05\ 2\r\n0\ Psg06\ 3\r\n-1\r\n
+comment3.params=
+comment3.target=void\ loadPassengers()
+comment3.text=\r\n\ \ \ \ \ \ \ Load\ all\ passengers\ into\ cars.\r\n
+comment4.params=
+comment4.target=void\ driveCars()
+comment4.text=\r\n\ \ \ \ \ \ \ Drive\ all\ cars\ until\ they\ have\ arrived.\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

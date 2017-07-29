@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Word
+comment0.text=\r\n\ \ \ This\ class\ describes\ words\ in\ a\ document.\ There\ are\ a\ couple\r\n\ \ \ of\ bugs\ in\ this\ class.\r\n
+comment1.params=s
+comment1.target=Word(java.lang.String)
+comment1.text=\r\n\ \ \ \ \ \ \ Constructs\ a\ word\ by\ removing\ leading\ and\ trailing\ non-\r\n\ \ \ \ \ \ \ letter\ characters,\ such\ as\ punctuation\ marks.\r\n\ \ \ \ \ \ \ @param\ s\ the\ input\ string\r\n
+comment2.params=
+comment2.target=java.lang.String\ getText()
+comment2.text=\r\n\ \ \ \ \ \ \ Returns\ the\ text\ of\ the\ word,\ after\ removal\ of\ the\r\n\ \ \ \ \ \ \ leading\ and\ trailing\ non-letter\ characters.\r\n\ \ \ \ \ \ \ @return\ the\ text\ of\ the\ word\r\n
+comment3.params=
+comment3.target=int\ countSyllables()
+comment3.text=\r\n\ \ \ \ \ \ \ Counts\ the\ syllables\ in\ the\ word.\r\n\ \ \ \ \ \ \ @return\ the\ syllable\ count\r\n
+numComments=4

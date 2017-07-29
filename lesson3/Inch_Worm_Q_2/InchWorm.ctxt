@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=InchWorm
+comment0.text=\r\n\ \ \ \ Write\ a\ class\ InchWorm\ that\ models\ an\ inch\ worm\ moving\ along\ a\ \r\n\ \ \ \ horizontal\ line.\ The\ inch\ worm\ \ moves\ either\ to\ the\ right\ or\ left.\r\n\ \ \ \ Initially,\ the\ inch\ worm\ moves\ to\ the\ right,\ but\ it\ can\ turn\ to\r\n\ \ \ \ change\ its\ direction.\ In\ each\ move,\ its\ position\ changes\ by\ one\r\n\ \ \ \ unit\ in\ the\ current\ direction.\ \r\n\ \ \ \ \r\n\ \ \ \ Provide\ two\ constructors.\ \r\n\ \ \ \ One\ that\ takes\ the\ initial\ position\ as\ an\ argument,\r\n\ \ \ \ and\ one\ with\ no\ arguments\ that\ sets\ the\ initial\ position\ to\ 0.\ \r\n\ \ \ \ \r\n\ \ \ \ You\ will\ need\ two\ instance\ variables.\ \r\n\ \ \ \ One\ to\ keep\ track\ of\ the\ position\ and\ one\ to\ keep\ track\ of\ the\ direction.\ \r\n\ \ \ \ You\ can\ use\ 1\ to\ represent\ moving\ right\ and\ -1\ to\ represent\ moving\ left.\ \r\n\ \ \ \ \r\n\ \ \ \ Constructors\:\r\n\ \ \ \ public\ InchWorm()\r\n\ \ \ \ public\ InchWorm\ (int\ initialPosition)\r\n\ \ \ \ \r\n\ \ \ \ Provide\ these\ methods\:\r\n\ \ \ \ public\ void\ turn()\r\n\ \ \ \ public\ void\ move()\r\n\ \ \ \ public\ int\ getPosition()\r\n\ \ \ \ \r\n\ \ \ \ Sample\ usage\:\r\n\ \ \ \ InchWorm\ worm\ \=\ new\ InchWorm\ (10);\r\n\ \ \ \ worm.move();\ //\ Now\ the\ position\ is\ 11\r\n\ \ \ \ worm.turn();\r\n\ \ \ \ worm.move();\ //\ Now\ the\ position\ is\ 10\r\n\ \ \ \ \r\n\ \ \ \ \r\n\ \ \ \ Need\ help\ starting\ this\ question?\ In\ the\ lesson\ titled\ \r\n\ \ \ \ "Starting\ points\:\ Problem\ Set\ Questions",\ go\ to\ the\r\n\ \ \ \ problem\ titled\ "Problem\ Set\ 2\ -\ Question\ 2"\ for\ some\ tips\ on\ \r\n\ \ \ \ how\ to\ begin.\ \r\n
+comment1.params=
+comment1.target=InchWorm()
+comment1.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ InchWorm.\ Position\ is\ initialized\ at\ 0,0.\r\n
+comment2.params=initialPosition
+comment2.target=InchWorm(int)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ InchWorm.\ Position\ provided\ to\ the\ constructor.\r\n
+comment3.params=
+comment3.target=void\ turn()
+comment3.text=\r\n\ Changes\ the\ direction\ of\ the\ worm's\ head\ to\ the\ opposite\ direction.\r\n\r\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\r\n\ Adds\ a\ turn\ to\ the\ game,\ moving\ the\ worm's\ head\ 1\ position\ in\ the\ current\ direction.\r\n\r\n
+comment5.params=
+comment5.target=int\ getPosition()
+comment5.text=\r\n\ Adds\ a\ turn\ to\ the\ game,\ moving\ the\ worm's\ head\ 1\ position\ in\ the\ current\ direction.\r\n\r\n
+numComments=6

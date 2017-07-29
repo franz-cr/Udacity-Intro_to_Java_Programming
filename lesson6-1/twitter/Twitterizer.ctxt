@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Twitterizer
+comment1.params=longPost
+comment1.target=java.lang.String\ shorten(java.lang.String)
+comment1.text=\r\n\ Shortens\ and\ prints\ longPost\ by\ removing\ vowels\r\n\ @param\ longPost\ the\ post\ whose\ vowels\ need\ to\ be\ removed.\r\n
+numComments=2

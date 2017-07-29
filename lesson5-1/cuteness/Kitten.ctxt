@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Kitten
+comment1.params=ageInMonths
+comment1.target=Kitten(int)
+comment2.params=
+comment2.target=java.lang.String\ getCuteness()
+comment2.text=\r\n\ Returns\ how\ cute\ a\ kitten\ is\ based\ on\ age.\ \r\n\ Kittens\ can\ be\ "cute",\ "super\ cute",\ or\ "not\ so\ cute".\ \r\n\ @return\ kittens\ below\ 2\ months\ are\ not\ so\ cute.\ kittens\r\n\ \ \ \ \ \ \ \ \ above\ 6\ months\ are\ cute.\ kittens\ between\ 2\ and\ \r\n\ \ \ \ \ \ \ \ \ 6\ months\ (inclusive)\ are\ super\ cute.\ \r\n
+numComments=3

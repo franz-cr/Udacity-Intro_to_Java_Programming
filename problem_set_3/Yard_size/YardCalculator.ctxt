@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=YardCalculator
+comment1.params=lengthFeet\ widthFeet
+comment1.target=YardCalculator(int,\ int)
+comment2.params=lengthFeet\ widthFeet
+comment2.target=YardCalculator(double,\ double)
+comment2.text=\r\n\ Constructs\ a\ YardCalculator\ with\ the\ given\ parameters\r\n\ @param\ theLength\ the\ length\ of\ the\ yard\r\n\ @param\ theWidth\ the\ width\ of\ the\ yard\r\n
+comment3.params=
+comment3.target=double\ perimeter()
+comment3.text=\r\n\ Gets\ the\ perimeter\ of\ the\ yard\r\n\ @return\ the\ perimeter\r\n
+comment4.params=
+comment4.target=double\ area()
+comment4.text=\r\n\ Gets\ the\ area\ of\ the\ yard\r\n\ @return\ the\ area\r\n
+comment5.params=
+comment5.target=double\ diagonal()
+comment5.text=\r\n\ Gets\ the\ diagonal\ of\ the\ yard\r\n\ @return\ the\ diagonal\r\n
+numComments=6

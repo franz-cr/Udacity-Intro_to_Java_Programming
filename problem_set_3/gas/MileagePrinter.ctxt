@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MileagePrinter
+comment0.text=\ \ Write\ a\ program\ called\ MilagePrinter\ that\ asks\ the\ user\ to\ input\ the\ following\ values\:\r\n\ \ \ \ \ \ \ \ -\ The\ number\ of\ gallons\ currently\ in\ the\ tank\r\n\ \ \ \ \ \ \ \ -\ The\ fuel\ efficiency\ in\ miles\ per\ gallon\r\n\ \ \ \ \r\n\ \ \ \ and\ then\ prints\ how\ far\ the\ car\ can\ go\ on\ the\ gas\ in\ the\ tank\ and\ the\ cost\ of\ driving\ 100\ miles.\ \r\n\ \ \ \ Print\ the\ distance\ with\ 1\ decimal\ point\ and\ the\ cost\ with\ 2\ decimals.\r\n\ \ \ \ \r\n\ \ \ \ Use\ System.out.print\ and\ not\ System.out.println.\ Otherwise\ your\ output\ will\ not\ be\r\n\ \ \ \ formatted\ correctly\r\n\ \ \ \ \r\n\ \ \ \ Assume\ the\ cost\ per\ gallon\ is\ $3.95.\ Define\ it\ as\ a\ constant\:\r\n\ \ \ \ \ \ \ \ final\ double\ COST_PER_GALLON\ \=\ 3.95;\r\n\ \ \ \ \r\n\ \ \ \ If\ value\ entered\ for\ efficiency\ is\ less\ than\ or\ equal\ to\ 0,\ print\ "No\ can\ go".\r\n\ \ \ \ Otherwise\ continue\ with\ the\ calculations.\ You\ output\ should\ be\ in\ the\ exact\r\n\ \ \ \ format\ shown\ below.\ The\ text\ will\ be\ identical\ -\ only\ the\ numbers\ will\ change.\r\n\ \ \ \ \r\n\ \ \ \ Sample\ runs\ for\ the\ final\ version\:\r\n\ \ \ \ Enter\ the\ number\ of\ gallons\ of\ gas\ in\ the\ tank\ 5.1\r\n\ \ \ \ Enter\ the\ fuel\ efficiency\ 35.0\r\n\ \ \ \ Distance\:\ \ \ 178.5\r\n\ \ \ \ Cost\:\ \ \ \ \ \ \ 11.29\r\n\ \ \ \ \r\n\ \ \ \ Enter\ the\ number\ of\ gallons\ of\ gas\ in\ the\ tank\ 25\r\n\ \ \ \ Enter\ the\ fuel\ efficiency\ -5\r\n\ \ \ \ No\ can\ go\ \r\n\ \ \ \ \r\n\ \ \ \ Need\ help\ starting\ this\ question?\ In\ the\ lesson\ titled\ \r\n\ \ \ \ "Starting\ points\:\ Problem\ Set\ Questions",\ go\ to\ the\r\n\ \ \ \ problem\ titled\ "Problem\ Set\ 3\ -\ Question\ 2"\ for\ some\ tips\ on\ \r\n\ \ \ \ how\ to\ begin.\ \r\n\ \ \ \ \r\n\ \ \ \ Important\:\ Be\ sure\ to\ print\ the\ string\ exactly\ as\ shown\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=boolean\ validEfficiency()
+comment3.params=
+comment3.target=MileagePrinter()
+comment4.params=
+comment4.target=void\ getData()
+comment4.text=\r\n\ Gets\ and\ populates\ the\ currentGallons\ and\ efficiency\ variables\r\n\ @params\ none\r\n\ @return\ none\r\n
+comment5.params=
+comment5.target=double\ Distance()
+comment5.text=\r\n\ Calculates\ the\ distance\ in\ miles\ the\ car\ can\ go\ with\ the\ provided\ gallons\ \r\n\ in\ the\ tank.\r\n\ @parameter\ none\r\n\ @return\ the\ distance\ in\ miles\r\n
+comment6.params=
+comment6.target=double\ CostOfHundredMiles()
+comment6.text=\r\n\ Calculates\ the\ cost\ of\ driving\ 100\ miles\ with\ the\ given\ efficiency\ \r\n\ in\ the\ tank.\r\n\ @parameter\ none\r\n\ @return\ the\ cost\ of\ 100\ miles\r\n
+numComments=7

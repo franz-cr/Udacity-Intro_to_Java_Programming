@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ConcatTest
+comment0.text=\r\n\ Complete\ the\ code\ to\ return\ a\ string\r\n\ consisting\ of\ the\ name,\ a\ colon(\:),\ a\ space,\ and\ the\ score.\r\n
+comment1.params=name\ score
+comment1.target=java.lang.String\ concatenation(java.lang.String,\ int)
+comment1.text=\r\n\ Gets\ a\ string\ in\ the\ format\ name\:\ score\r\n\ @param\ name\ the\ name\ to\ concatenate\r\n\ @param\ score\ the\ score\ to\ concatenate\r\n\ @return\ the\ new\ string\r\n
+numComments=2
