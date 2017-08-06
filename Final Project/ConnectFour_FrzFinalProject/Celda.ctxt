@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Celda
+comment0.text=\r\n\ Una\ celda\ para\ la\ columna\ de\ L\u00EDnea\ 4.\ Una\ celda\ es\ la\ unidad\ b\u00E1sica\ del\ tablero,\r\n\ la\ celda\ es\ cuadrada\ y\ dimensiones\ constantes,\ y\ tiene\ un\ punto\ de\ origen\ dado\r\n\ por\ las\ coordenadas\ x-y.\ El\ punto\ de\ origen\ es\ la\ esquina\ superior\ izquierda.\r\n\ \r\n\ @author\ \ \ \ \ \ Franz\ Ulrich\r\n\ @address\ \ \ \ \ franz.ulrich.cr@gmail.com\r\n\ @version\ \ \ \ \ Original\r\n
+comment1.params=x_origin\ y_origin\ lado\ numCelda
+comment1.target=Celda(double,\ double,\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Celda\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Draw\ -\ Dibuja\ la\ ficha.\r\n\r\n\ @param\ \ \ Ninguno\r\n\ @return\ \ Ninguno\r\n
+comment3.params=color
+comment3.target=boolean\ recibirFicha(Color)
+comment3.text=\r\n\ Recibir\ Ficha\ -\ Recibe\ una\ ficha\ y\ llena\ la\ celda.\r\n\r\n\ @param\ \ \ La\ ficha\ que\ llenar\u00E1\ la\ celda\r\n\ @return\ \ El\ estado\ de\ la\ celda\ una\ vez\ llena\r\n
+comment4.params=
+comment4.target=boolean\ estaLlena()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\ -\ Entrega\ una\ representaci\u00F3n\ de\ caracteres\ de\ una\ celda.\r\n\r\n\ @param\ \ \ Ninguno\r\n\ @return\ \ Cadena\ de\ caracteres\ (String)\r\n
+numComments=6

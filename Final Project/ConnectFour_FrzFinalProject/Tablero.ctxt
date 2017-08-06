@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Tablero
+comment0.text=\r\n\ Un\ tablero\ contiene\ las\ columnas\ de\ L\u00EDnea\ 4.\ Un\ tablero\ es\ la\ unidad\ l\u00F3gica\ que\r\n\ contiene\ las\ columnas\ del\ juego,\ y\ determina\ cuantas\ columnas\ y\ celdas\ tiene.\r\n\ \r\n\ @author\ \ \ \ \ \ Franz\ Ulrich\r\n\ @address\ \ \ \ \ franz.ulrich.cr@gmail.com\r\n\ @version\ \ \ \ \ Original\r\n
+comment1.params=columnas\ celdas
+comment1.target=Tablero(int,\ int)
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ clase\ Tablero\r\n
+comment2.params=color\ columnaID
+comment2.target=boolean\ recibirFicha(Color,\ int)
+comment2.text=\r\n\ Recibir\ Ficha\ -\ Recibe\ el\ color\ de\ la\ ficha\ y\ la\ columna\ a\ la\ que\ se\ le\ \r\n\ debe\ asignar.\r\n\ \r\n\ @param\ \ \ Ejemplar\ del\ color\ de\ la\ ficha\ de\ un\ jugador\r\n\ @param\ \ \ N\u00FAmero\ de\ la\ columna\ a\ la\ cual\ asignar\ la\ ficha\r\n\ @return\ \ Estado\ de\ la\ acci\u00F3n,\ 'true'\ o\ 'false'\r\n
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\r\n\ Draw\ -\ Dibuja\ las\ columnas\ del\ tablero\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ toString\ -\ Entrega\ una\ representaci\u00F3n\ de\ caracteres\ de\ un\ tablero\r\n\r\n\ @param\ \ \ Ninguno\r\n\ @return\ \ Cadena\ de\ caracters\ (String)\r\n
+numComments=5

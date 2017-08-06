@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ficha
+comment0.text=\r\n\ Una\ ficha\ para\ el\ juego\ de\ L\u00EDnea\ 4.\ Una\ ficha\ es\ un\ c\u00EDrculo\ de\ radio\ constante,\ \r\n\ un\ color\ y\ unas\ coordinadas\ x-y\ del\ punto\ de\ or\u00EDgen\ recibido\ en\ el\ constructor.\r\n\ \r\n\ @author\ \ \ \ \ \ Franz\ Ulrich\r\n\ @address\ \ \ \ \ franz.ulrich.cr@gmail.com\r\n\ @version\ \ \ \ \ Original\r\n
+comment1.params=
+comment1.target=Ficha()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ clase\ Ficha\ vac\u00EDa\r\n
+comment2.params=x\ y\ lado\ colorFicha
+comment2.target=Ficha(int,\ int,\ int,\ Color)
+comment2.text=\r\n\ Constructor\ de\ objetos\ de\ clase\ Ficha\ con\ sus\ atributos\r\n
+comment3.params=newColor
+comment3.target=void\ setColor(Color)
+comment3.text=\r\n\ Sets\ the\ color\ of\ this\ ellipse.\r\n\ @param\ newColor\ the\ new\ color\r\n
+comment4.params=
+comment4.target=void\ drawHole()
+comment4.text=\r\n\ DrawHole\ -\ Dibuja\ un\ espacio\ vac\u00EDo\ del\ tama\u00F1o\ de\ una\ ficha.\r\n\r\n\ @param\ \ \ Ninguno\r\n\ @return\ \ Ninguno\r\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\r\n\ Draw\ -\ Dibuja\ la\ ficha.\r\n\r\n\ @param\ \ \ Ninguno\r\n\ @return\ \ Ninguno\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ toString\ -\ Entrega\ una\ representaci\u00F3n\ de\ caracteres\ de\ una\ ficha.\r\n\r\n\ @param\ \ \ Ninguno\r\n\ @return\ \ Cadena\ de\ caracteres\ (String)\r\n
+numComments=7

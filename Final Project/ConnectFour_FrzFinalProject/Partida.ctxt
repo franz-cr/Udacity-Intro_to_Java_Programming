@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Partida
+comment0.text=\r\n\ Una\ partida\ contiene\ los\ elementos\ necesarios\ para\ efectuar\ un\ juego\ de\ L\u00EDnea\ 4.\r\n\ Una\ partida\ es\ la\ unidad\ l\u00F3gica\ que\ contiene\ el\ tablero\ de\ juego,\ los\ jugadores,\ \r\n\ el\ inicio\ de\ una\ partida,\ el\ manejo\ de\ los\ turnos\ de\ cada\ jugador,\ la\ evaluaci\u00F3n\r\n\ de\ cual\ jugador\ forma\ primero\ la\ L\u00EDnea\ objetivo,\ el\ otorgamiento\ del\ gane\ de\ la\r\n\ partida\ y\ el\ manejo\ para\ finalizar\ el\ juego\ o\ reiniciar\ una\ partida\ nueva.\r\n\ \r\n\ @author\ \ \ \ \ \ Franz\ Ulrich\r\n\ @address\ \ \ \ \ franz.ulrich.cr@gmail.com\r\n\ @version\ \ \ \ \ Original\r\n
+comment1.params=dificultad
+comment1.target=Partida(Partida.Dificultad)
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Partida\r\n
+comment2.params=
+comment2.target=javax.swing.JPanel\ crearPanelSuperior()
+comment2.text=\r\n\ crearPanelSuperior\ -\ Crea\ el\ panel\ superior\ con\ sus\ diferentes\ componentes\r\n\ que\ se\ han\ diagramado\ seg\u00FAn\ lo\ requerido.\r\n\ \r\n\ @return\ \ Un\ panel\ con\ sus\ respectivos\ componentes.\r\n
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=dificultad
+comment6.target=int[]\ parametrosJuego(Partida.Dificultad)
+comment6.text=\r\n\ parametrosJuego\ -\ Define\ los\ par\u00E1metros\ b\u00E1sicos\ de\ un\ juego\ de\ acuerdo\ a\ \r\n\ un\ nivel\ recibido\ de\ dificultad.\r\n\r\n\ @param\ \ \ Enumerado\ del\ nivel\ de\ dificultad.\r\n\ @return\ \ Un\ arreglo\ de\ enteros\ con\ los\ par\u00E1metros\ del\ juego.\r\n
+comment7.params=
+comment7.target=void\ leftButtonPressed()
+comment8.params=
+comment8.target=void\ rightButtonPressed()
+comment9.params=
+comment9.target=void\ playButtonPressed()
+numComments=10
