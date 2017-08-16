@@ -14,7 +14,10 @@ public class Celda {
     private Rectangle celda;
     private Ficha ficha;
     private boolean estaLlena = false;
+    private boolean isHighlighted = false;
     private final int BORDE = 5;
+    // BORDE: Márgen interno en pixeles desde el borde externo de la celda y el borde
+    // externo del agujero que aloja a la ficha.
     private int celdaID;
     
     /**
@@ -28,23 +31,9 @@ public class Celda {
         ficha = new Ficha((int)(x_origin + BORDE), (int)(y_origin + (int)BORDE), 
             (int)(lado - 2 * BORDE), Color.WHITE);
     }
-
-    /**
-     * Draw - Dibuja la ficha.
-     *
-     * @param   Ninguno
-     * @return  Ninguno
-     */    
-    public void draw() {
-        celda.fill();
-        if (estaLlena)
-            ficha.draw();
-        else
-            ficha.drawHole();
-    }
     
     /**
-     * Recibir Ficha - Recibe una ficha y llena la celda.
+     * recibirFicha - Recibe una ficha y llena la celda.
      *
      * @param   La ficha que llenará la celda
      * @return  El estado de la celda una vez llena
@@ -57,15 +46,44 @@ public class Celda {
         return estaLlena;
     }
     
+    /**
+     * emptySlot - Vacía la ficha de la celda.
+     *
+     * @return  Void
+     */
+    public void unloadSlot() {
+
+        ficha.setColor(Color.WHITE);
+        estaLlena = false;
+    }
+        
+    /**
+     * estaLlena - Indica si la celda tiene una ficha.
+     *
+     * @return  El verdadero si la celda tiene una ficha.
+     */    
     public boolean estaLlena() {
         
         return estaLlena;
+    }
+
+    /**
+     * Draw - Dibuja la ficha.
+     *
+     * @param   Ninguno
+     * @return  Void
+     */    
+    public void draw() {
+        celda.fill();
+        if (estaLlena)
+            ficha.draw();
+        else
+            ficha.drawHole();
     }
     
     /**
      * toString - Entrega una representación de caracteres de una celda.
      *
-     * @param   Ninguno
      * @return  Cadena de caracteres (String)
      */    
     @Override

@@ -211,7 +211,15 @@ public class Canvas {
     }
     
     public void addPanelToFrame(JPanel panel, char position) {
-        frame.add(panel, BorderLayout.NORTH);
+        
+        switch (position) {
+            case 'N':
+                frame.add(panel, BorderLayout.NORTH);
+                break;
+            case 'S':
+                frame.add(panel, BorderLayout.SOUTH);
+                break; 
+            }
     }
     
     public void blueTokenButtonPressed() {

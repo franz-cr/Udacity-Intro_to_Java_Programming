@@ -38,11 +38,21 @@ public class Ficha {
     }
     
     /**
-     * Sets the color of this ellipse.
+     * setColor - Sets the color of this ellipse.
+     * 
      * @param newColor the new color
      */
     public void setColor(Color newColor) {
         cuerpo.setColor(newColor);
+    }
+    
+    /**
+     * setColor - Sets the color of this ellipse.
+     * 
+     * @param newColor the new color
+     */
+    public void highlightToken() {
+        borde.setColor(Color.ORANGE);
     }
     
     /**

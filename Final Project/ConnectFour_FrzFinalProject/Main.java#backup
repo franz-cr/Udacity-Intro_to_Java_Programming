@@ -48,7 +48,7 @@ public class Main {
         boolean continuar = true;
         while(continuar) {
             //System.out.print("* Agregar ficha, [Color Columna] (R: Rojo/A: Azul/S: Salir)?");
-            System.out.println("* Teclee 'S' para salir del juego                                             *");
+            System.out.print("* Teclee 'S' para salir del juego                                             *");
             String respuesta = in.next();
             
             if (respuesta.equalsIgnoreCase("R")) {            
