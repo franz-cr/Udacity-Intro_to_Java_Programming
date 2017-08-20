@@ -115,6 +115,7 @@ public class Partida {
         
         // Formatear el panel superior
         upperPanel.setBackground(COLOR_PANELES);
+        upperPanel.setName("pnlUpperPanel");
         upperPanel.add(label, gridLayout, 0);
         upperPanel.add(leftMove, gridLayout, 1);
         upperPanel.add(playToken, gridLayout, 2);
@@ -144,11 +145,12 @@ public class Partida {
             positionLabel = new JLabel("< " + i + " >");
             positionLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             //positionLabel.setLocation(ANCHO * i, 10);
-            positionLabel.setName("" + i);
+            positionLabel.setName("lbl" + i);
             positionLabel.setPreferredSize(dimension);
             lowerPanel.add(positionLabel, i);
         }
         lowerPanel.setBackground(COLOR_PANELES);
+        lowerPanel.setName("pnlLowerPanel");
         return lowerPanel;
     }
 
@@ -159,7 +161,6 @@ public class Partida {
      */
     public int ejecutarTurno() {
 
-        // TODO: Si hay campo en el tablero y la columna activa tiene espacio
         // ejecutar turno.
         if (esTurnoAzul) {
             tablero.recibirFicha(Color.BLUE, columnaActiva);
@@ -170,6 +171,8 @@ public class Partida {
             marcador.setColor(Color.BLUE);
             esTurnoAzul = true;
         }
+        System.out.println("* Fichas: " + tablero.getQtyTokens());
+        
         // TODO: Informar al usuario si la jugada no se pudo ejecutar mediante el 
         // panel inferior y/o un cuadro de diálogo.
         

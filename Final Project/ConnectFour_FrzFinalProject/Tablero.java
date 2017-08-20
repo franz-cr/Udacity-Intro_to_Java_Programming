@@ -10,7 +10,6 @@
 public class Tablero {
     // instance variables - replace the example below with your own
     private Columna[] columnas;
-    private int qtyFichas = 0;
     private boolean estaLleno = false;
     
     /**
@@ -34,13 +33,8 @@ public class Tablero {
      */
     public boolean recibirFicha(Color color, int columnaID) {
 
-        qtyFichas++;
-        // TODO: Esto suma fichas aunque no se agreguen por estar llenos los espacios
-        if (columnaID < columnas.length) {
-            if (columnas[columnaID].recibirFicha(color));
-                System.out.println("* La columna está llena, ");
-            return true;
-        }
+        if (columnaID < columnas.length)
+            return (columnas[columnaID].recibirFicha(color));
         else
             return false;
     }    
@@ -54,9 +48,23 @@ public class Tablero {
 
         for (int i = 0; i < columnas.length; i++)
             columnas[i].unloadColumn();
-        qtyFichas = 0;
     }
+    
+    /**
+     * getQtyTokens - Obtiene la cantidad de fichas que hay en el tablero.
+     * 
+     * @return  La cantidad de fichas
+     */
+    public int getQtyTokens() {
 
+        int qtyTokens = 0;
+        
+        for (int i = 0; i < columnas.length; i++)
+            qtyTokens += columnas[i].getQtyTokens();
+        
+        return qtyTokens;
+    }
+    
     /**
      * getColumnsNumber - Obtiene la cantidad de columnas del tablero.
      * 

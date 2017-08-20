@@ -69,6 +69,24 @@ public class Columna {
     }
     
     /**
+     * getQtyTokens - Obtiene la cantidad de fichas que tiene una columna.
+     * 
+     * @return  La cantidad de fichas de la columna
+     */
+    public int getQtyTokens() {
+
+        int qtyTokens = 0;
+        
+        for (Celda celda : celdas) {
+            
+            if (celda.estaLlena())
+                qtyTokens += 1;
+        }
+        
+        return qtyTokens;
+    }
+    
+    /**
      * getColumnWidth - Retorna el ancho de la celda alojada en la variable estática
      * 'ANCHO' en esta clase.
      * 
