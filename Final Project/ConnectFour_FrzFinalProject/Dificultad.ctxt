@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Dificultad
+comment0.text=\r\n\ El\ enumerado\ Dificultad\ define\ el\ nivel\ dificultad\ de\ la\ partida\ y\ se\ usa\ en\ \r\n\ el\ contructor\ de\ una\ partida\ para\ obtener\ los\ par\u00E1metros\ b\u00E1sicos\ de\ esa\ \r\n\ partida.\r\n\ \r\n\ @author\ \ \ \ \ \ Franz\ Ulrich\r\n\ @address\ \ \ \ \ franz.ulrich.cr@gmail.com\r\n\ @version\ \ \ \ \ Original\r\n
+numComments=1

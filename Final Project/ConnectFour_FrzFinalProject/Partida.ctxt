@@ -2,10 +2,10 @@
 comment0.target=Partida
 comment0.text=\r\n\ Una\ partida\ contiene\ los\ elementos\ necesarios\ para\ efectuar\ un\ juego\ de\ L\u00EDnea\ 4.\r\n\ Una\ partida\ es\ la\ unidad\ l\u00F3gica\ que\ contiene\ el\ tablero\ de\ juego,\ los\ jugadores,\ \r\n\ el\ inicio\ de\ una\ partida,\ el\ manejo\ de\ los\ turnos\ de\ cada\ jugador,\ la\ evaluaci\u00F3n\r\n\ de\ cual\ jugador\ forma\ primero\ la\ L\u00EDnea\ objetivo,\ el\ otorgamiento\ del\ gane\ de\ la\r\n\ partida\ y\ el\ manejo\ para\ finalizar\ el\ juego\ o\ reiniciar\ una\ partida\ nueva.\r\n\ \r\n\ @author\ \ \ \ \ \ Franz\ Ulrich\r\n\ @address\ \ \ \ \ franz.ulrich.cr@gmail.com\r\n\ @version\ \ \ \ \ Original\r\n
 comment1.params=dificultad
-comment1.target=Partida(Partida.Dificultad)
+comment1.target=Partida(Dificultad)
 comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Partida\r\n
 comment10.params=dificultad
-comment10.target=int[]\ parametrosJuego(Partida.Dificultad)
+comment10.target=int[]\ parametrosJuego(Dificultad)
 comment10.text=\r\n\ parametrosJuego\ -\ Define\ los\ par\u00E1metros\ b\u00E1sicos\ de\ un\ juego\ de\ acuerdo\ a\ \r\n\ un\ nivel\ recibido\ de\ dificultad.\r\n\r\n\ @param\ \ \ Enumerado\ del\ nivel\ de\ dificultad.\r\n\ @return\ \ Un\ arreglo\ de\ enteros\ con\ los\ par\u00E1metros\ del\ juego.\r\n
 comment11.params=
 comment11.target=void\ leftButtonPressed()

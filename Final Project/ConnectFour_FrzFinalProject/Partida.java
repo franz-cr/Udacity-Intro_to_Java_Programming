@@ -27,11 +27,11 @@ public class Partida {
     private int columnaActiva = 0;
     private final int ANCHO, MARGEN_IZQ, MARGEN_SUP;
     // Cambiar también en Columna.java en caso de requerir ser cambiado en un futuro
-    public enum Dificultad {
-        SENCILLA,
-        NORMAL,
-        DIFICIL
-    } 
+    // private enum Dificultad {
+        // SENCILLA,
+        // NORMAL,
+        // DIFICIL
+    // } 
 
     /**
      * Constructor de objetos de la clase Partida

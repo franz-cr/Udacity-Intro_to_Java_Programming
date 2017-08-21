@@ -14,14 +14,14 @@ import java.awt.event.*;
 
 public class Main {
     // Class instance variables
-    private Partida.Dificultad dificultad;
+    //private Partida.Dificultad dificultad;
 
     //private static Tablero miTablero;
     //private static Canvas myCanvas;
     
     public static void main(String[] args) {
         // Method Variables:
-        Partida partida = new Partida(Partida.Dificultad.NORMAL);
+        Partida partida = new Partida(Dificultad.NORMAL);
         Scanner in = new Scanner(System.in);        
 /*        final int LADO = 60;
         int lado = 60, margen = 10;
