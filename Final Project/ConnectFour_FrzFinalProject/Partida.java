@@ -25,21 +25,17 @@ public class Partida {
     private Canvas gameCanvas;
     private int linea;
     private int columnaActiva = 0;
+    private int juegosJugados = 1;
+    private int ganadosJug1 = 0, ganadosJug2 = 0;
     private final int ANCHO, MARGEN_IZQ, MARGEN_SUP;
-    // Cambiar también en Columna.java en caso de requerir ser cambiado en un futuro
-    // private enum Dificultad {
-        // SENCILLA,
-        // NORMAL,
-        // DIFICIL
-    // } 
 
     /**
      * Constructor de objetos de la clase Partida
      */
     public Partida(Dificultad dificultad) {
         // Inicializar variables de clase
-        this.nombreJugador1 = "";
-        this.nombreJugador2 = "";
+        this.nombreJugador1 = "uno";
+        this.nombreJugador2 = "dos";
         // Obtener los parámetros del juego
         int[] parametros = parametrosJuego(dificultad);
         tablero = new Tablero(parametros[0], parametros[1]);
@@ -63,6 +59,9 @@ public class Partida {
         gameCanvas = Canvas.getInstance();
         gameCanvas.addPanelToFrame(crearPanelSuperior(), 'N');
         gameCanvas.addPanelToFrame(crearPanelInferior(parametros[0]), 'S');
+        
+        informacionUsuarios();
+        
         // Despliega el tablero en pantalla
         tablero.draw();
     }
@@ -73,7 +72,7 @@ public class Partida {
      * Tutorial: https://docs.oracle.com/javase/tutorial/uiswing/components/panel.html
      * 
      * @return  Un panel con sus respectivos componentes.
-     */    
+     */
     private JPanel crearPanelSuperior() {
         JPanel upperPanel = new JPanel();
         JButton leftMove = new JButton("<");
@@ -146,7 +145,8 @@ public class Partida {
             positionLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             //positionLabel.setLocation(ANCHO * i, 10);
             positionLabel.setName("lbl" + i);
-            positionLabel.setPreferredSize(dimension);
+            positionLabel.setVisible(false);
+            //positionLabel.setPreferredSize(dimension);
             lowerPanel.add(positionLabel, i);
         }
         lowerPanel.setBackground(COLOR_PANELES);
@@ -171,11 +171,9 @@ public class Partida {
             marcador.setColor(Color.BLUE);
             esTurnoAzul = true;
         }
-        System.out.println("* Fichas: " + tablero.getQtyTokens());
-        
+        informacionUsuarios();
         // TODO: Informar al usuario si la jugada no se pudo ejecutar mediante el 
         // panel inferior y/o un cuadro de diálogo.
-        
         tablero.draw();
         
         return 1;
@@ -200,9 +198,40 @@ public class Partida {
             columnaActiva = 0;
         }
         esTurnoAzul = false;
+        juegosJugados++;
+        informacionUsuarios();
+        
         tablero.draw();
         
         return 1;
+    }
+    
+    /**
+     * informacionUsuarios - Este procedimiento se encarga de manipular los 
+     * controles del panel inferior con la información relevante para los 
+     * jugadores.
+     * 
+     * @return  Ninguno
+     */
+    public void informacionUsuarios() {
+
+        String labelText = "Jugadas: " + tablero.getQtyTokens() + " | ";
+        gameCanvas.addTextToJLabel(labelText, "lbl0");
+
+        labelText = nombreJugador1 + " vrs " + nombreJugador2 + " | "; 
+        gameCanvas.addTextToJLabel(labelText, "lbl1");
+        
+        // TODO: Agregar la lógica para llevar el control de los juegos jugados
+        labelText = "Juego: " + juegosJugados + " | ";
+        gameCanvas.addTextToJLabel(labelText, "lbl2");
+
+        // TODO: Agregar la lógica para llevar el control de los juegos jugados
+        labelText = "R: " + ganadosJug1 + " - " + ganadosJug2 + ":A | ";
+        gameCanvas.addTextToJLabel(labelText, "lbl3");
+
+        // TODO: Agregar la lógica para llevar el control de los juegos jugados
+        labelText = "TBD";
+        gameCanvas.addTextToJLabel(labelText, "lbl4");
     }
     
     /**

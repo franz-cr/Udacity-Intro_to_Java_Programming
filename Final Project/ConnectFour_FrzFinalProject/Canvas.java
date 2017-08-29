@@ -27,11 +27,12 @@ public class Canvas {
     private CanvasComponent component;
 
     //FRZ Code:
-    private JPanel upperPanel;
-    private JButton bttBlue;
-    private JButton bttRed;
-    private JLabel label;
-    private GridBagConstraints gridLayout = new GridBagConstraints();
+    private Component[] lowerFrameComponents;
+    // private JPanel upperPanel;
+    // private JButton bttBlue;
+    // private JButton bttRed;
+    // private JLabel label;
+    // private GridBagConstraints gridLayout = new GridBagConstraints();
     
     private static final int MIN_SIZE = 300;
     private static final int MARGIN = 10;
@@ -81,33 +82,34 @@ public class Canvas {
             //FRZ - Code:
             // Declare the panel having a layout component, which will allow to layout
             // the controls added into the panel.
-            upperPanel = new JPanel(new GridBagLayout());
-            upperPanel.setBackground(java.awt.Color.GRAY);
+            // upperPanel = new JPanel(new GridBagLayout());
+            // upperPanel.setBackground(java.awt.Color.GRAY);
             // Setting up the layout in the panel
-            gridLayout.insets = new Insets(10,10,10,10); //10px border all around
+            // gridLayout.insets = new Insets(10,10,10,10); //10px border all around
             
             // Declare the buttons and panel controls
-            bttBlue = new JButton("Blue");
-            bttBlue.setAlignmentX(Component.CENTER_ALIGNMENT);
-            bttBlue.setSize(75, 15);
-            bttBlue.addActionListener(new ActionListener() {
-                public void actionPerformed(ActionEvent e) {
-                    blueTokenButtonPressed();
-                }
-            });
+            // bttBlue = new JButton("Blue");
+            // bttBlue.setAlignmentX(Component.CENTER_ALIGNMENT);
+            // bttBlue.setSize(75, 15);
+            // bttBlue.addActionListener(new ActionListener() {
+                // public void actionPerformed(ActionEvent e) {
+                    // blueTokenButtonPressed();
+                // }
+            // });
             
-            bttRed = new JButton("Red");
-            bttRed.setAlignmentX(Component.CENTER_ALIGNMENT);
+            // bttRed = new JButton("Red");
+            // bttRed.setAlignmentX(Component.CENTER_ALIGNMENT);
             
 
-            label = new JLabel("Game controls:");
-            label.setAlignmentX(Component.CENTER_ALIGNMENT);
+            // label = new JLabel("Game controls:");
+            // label.setAlignmentX(Component.CENTER_ALIGNMENT);
             // Add the control to the panel
-            upperPanel.add(label, gridLayout);
-            upperPanel.add(bttBlue, gridLayout); 
-            upperPanel.add(bttRed, gridLayout);
+            // upperPanel.add(label, gridLayout);
+            // upperPanel.add(bttBlue, gridLayout); 
+            // upperPanel.add(bttRed, gridLayout);
             // Add the panel to the frame
-            frame.add(upperPanel,BorderLayout.NORTH);
+            //frame.add(upperPanel,BorderLayout.NORTH);
+            //System.out.println("* Constructor > Canvas > Get Property == null");
         } else {
             final String SAVEFILE ="canvas.png";
             final Thread currentThread = Thread.currentThread();
@@ -127,6 +129,7 @@ public class Canvas {
                 }
             };
             watcherThread.start();
+            System.out.println("* Constructor > Canvas > Get Property != null");
         }
     }
 
@@ -210,6 +213,17 @@ public class Canvas {
         g.dispose();
     }
     
+    /**
+     * addPanelToFrame - Agrega un ejempler de un JPanel al JFrame que aloja
+     * el tablero del juego en una posición indicada por el caracter, a saber,
+     * 'N' es arriba, 'S' es abajo, 'E' es a la derecha, y 'W' a la derecha.
+     * Tutorial: https://docs.oracle.com/javase/tutorial/uiswing/components/panel.html
+     * 
+     * @param   El ejemplar del JPanel a agregar.
+     * @param   La posición en que debe agregarse el panel.
+     * 
+     * @return  Ninguno.
+     */
     public void addPanelToFrame(JPanel panel, char position) {
         
         switch (position) {
@@ -218,16 +232,39 @@ public class Canvas {
                 break;
             case 'S':
                 frame.add(panel, BorderLayout.SOUTH);
+                lowerFrameComponents = panel.getComponents();
                 break; 
             }
     }
     
-    public void blueTokenButtonPressed() {
-        //System.out.println("Botón de ficha azul apretado"); //columna1.toString() + "\n");
-        JOptionPane.showMessageDialog(null, "Click Ok to continue");
+    /**
+     * addTextToJLabel - Agrega el texto provisto al control JLabel indicado
+     * por el nombre del control en el panel inferior.
+     *
+     * @param   Enumerado del nivel de dificultad.
+     * @return  Un arreglo de enteros con los parámetros del juego.
+     */
+    public void addTextToJLabel(String labelText, String labelName) {
+        
+        for (int i = 0; i < lowerFrameComponents.length; i++) {
+            if (lowerFrameComponents[i].getName().equalsIgnoreCase(labelName)) {
+                JLabel label = (JLabel)(lowerFrameComponents[i]);
+                label.setText(labelText);
+                if (!label.isVisible())
+                    label.setVisible(true);
+            }
+        }
+        // System.out.println("Lower frame Components Count: " + lowerFrameComponents.length);
+        // JLabel label = (JLabel)(lowerFrameComponents[0]);
+        // label.setText(labelText);
+        // System.out.println("Component[0]:" + label.toString());
     }
+    // public void blueTokenButtonPressed() {
+        // //System.out.println("Botón de ficha azul apretado"); //columna1.toString() + "\n");
+        // JOptionPane.showMessageDialog(null, "Click Ok to continue");
+    // }
     
-    public void addButtonToPanel(JButton button) {
-        upperPanel.add(button, gridLayout);
-    }
+    // public void addButtonToPanel(JButton button) {
+        // upperPanel.add(button, gridLayout);
+    // }
 }
