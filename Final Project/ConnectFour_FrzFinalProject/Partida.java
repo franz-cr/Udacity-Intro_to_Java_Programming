@@ -178,6 +178,19 @@ public class Partida {
         
         return 1;
     }
+    
+    /**
+     * evaluarJugada - Determina si con la última ficha jugada el jugador activo
+     * logró hacer una línea, y retorna el resultado de la evaluación. A saber,
+     * 'true' si 
+     * 
+     * 
+     * @return  El resultado de la evaluación
+     */
+    public boolean evaluarJugada() {
+        
+        return false;
+    }
 
     /**
      * reiniciarPartida - Reinicia la partida, es decir, descarga las fichas del
@@ -309,7 +322,11 @@ public class Partida {
     public void playButtonPressed() {
         //JOptionPane.showMessageDialog(null, "Control de jugada clickeado");
         ejecutarTurno();
+        if (evaluarJugada()) {
+            //Declarar ganador;
+        }
     }
+    
     /**
      * playButtonPressed - Ejecuta las acciones de juego definidas para este
      * botón.
